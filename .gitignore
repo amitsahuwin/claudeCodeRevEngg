@@ -17,7 +17,6 @@ logs/
 # ── Extracted binary artifacts ─────────────────────────────────────────────────
 bundle-extract/
 webcrack-output/
-graphify-out/
 
 # ── Python ─────────────────────────────────────────────────────────────────────
 __pycache__/
