@@ -1,0 +1,44 @@
+# ── Captured API traffic logs (may contain system prompts & session data) ──────
+logs/
+
+# ── mitmproxy certificates & CA keys ──────────────────────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+~/.mitmproxy/
+
+# ── Claude / Anthropic credentials & local session config ─────────────────────
+.claude/settings.local.json
+.env
+.env.*
+*.env
+
+# ── Extracted binary artifacts ─────────────────────────────────────────────────
+bundle-extract/
+webcrack-output/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editor ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+*~
